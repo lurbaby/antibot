@@ -17,18 +17,17 @@ ANTI bot is a tool designed to combat automated bots in Telegram Messenger. If y
 
 ## Prerequisites
 
-You need to create a file `config.py` after cloning and add the following variables:
-
-```python
-api_id=YOUR_API_ID
-api_hash=YOUR_API_HASH
-bot_token=YOUR_BOT_TOKEN
 
 **You need to create file config.py after clonning and add variables this variables**
+``` python
 **api_id=YOUR_API_ID**
 **api_hash=YOUR_API_ID**
 **bot_token=YOUR_BOT_TOKEN**
+```
+## Installation and Running
 
+
+``` python
 # Clone the repo
 git clone https://github.com/lurbaby/antibot.git
 
@@ -37,7 +36,10 @@ cd antibot
 
 # Install the requirements
 python3 -m pip install -r requirements.txt
+```
 
+# Docker & Docker-compose
+``` 
 docker build -t anti-bot:latest .
 docker-compose up -d
 ```

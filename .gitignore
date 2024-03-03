@@ -2,3 +2,4 @@ config.py
 main2.py
 capcha.txt
 antibot.session
+.idea

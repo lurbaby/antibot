@@ -1,0 +1,6 @@
+version: "3"
+services:
+  anti-bot:
+    image: anti-bot:latest
+    restart: on-failure
+
